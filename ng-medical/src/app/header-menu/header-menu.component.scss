@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Whisper&display=swap");
+
+.right__menu__panel {
+    margin-left: auto;
+}
+
+.left__menu__panel {
+    margin-right: auto;
+}
+
+.nav__links {
+    display: inline-block;
+    list-style: none;
+}
+
+li,
+a {
+    color: #4e4b5c;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nav__logo {
+    font-family: "Whisper", cursive;
+}
+
+.nav__links li a {
+}
