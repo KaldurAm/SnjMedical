@@ -1,8 +1,8 @@
 ﻿namespace SnjMedical.SelfHost.Features.ApiVersioning;
 
-public static class ApiVersioningServiceCollectionExtension
+internal static class ApiVersioningServiceCollectionExtension
 {
-    public static IServiceCollection AddVersioning(this IServiceCollection services)
+    internal static IServiceCollection AddVersioning(this IServiceCollection services)
     {
         services.AddApiVersioning(options =>
         {

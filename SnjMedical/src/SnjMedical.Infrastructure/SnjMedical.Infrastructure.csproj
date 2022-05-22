@@ -34,10 +34,10 @@
 
 	<ItemGroup>
 	  <Reference Include="KDS.Options">
-	    <HintPath>..\..\..\..\..\Packages\KDS.Options.dll</HintPath>
+	    <HintPath>..\..\..\..\..\Packages\KDS.Options\KDS.Options.dll</HintPath>
 	  </Reference>
 	  <Reference Include="KDS.Validation">
-	    <HintPath>..\..\..\..\..\Packages\KDS.Validation.dll</HintPath>
+	    <HintPath>..\..\..\..\..\Packages\KDS.Options\KDS.Validation.dll</HintPath>
 	  </Reference>
 	</ItemGroup>
 

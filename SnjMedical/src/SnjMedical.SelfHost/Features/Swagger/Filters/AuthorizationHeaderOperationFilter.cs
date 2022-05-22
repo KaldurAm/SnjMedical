@@ -8,7 +8,7 @@ namespace SnjMedical.SelfHost.Features.Swagger.Filters;
 /// <summary>
 /// authorization header operation filter middleware
 /// </summary>
-public class AuthorizationHeaderOperationFilter : IOperationFilter
+internal class AuthorizationHeaderOperationFilter : IOperationFilter
 {
     private readonly OpenApiSecurityRequirement _securityRequirement;
 

@@ -7,7 +7,7 @@ namespace SnjMedical.SelfHost.Features.Swagger.Filters;
 /// <summary>
 /// swagger deafult values operation filter
 /// </summary>
-public class SwaggerDefaultValuesOperationFilter : IOperationFilter
+internal class SwaggerDefaultValuesOperationFilter : IOperationFilter
 {
     /// <summary>
     /// method applying logic

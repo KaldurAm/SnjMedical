@@ -4,7 +4,7 @@ using SnjMedical.Domain.Exceptions;
 
 namespace SnjMedical.SelfHost.Features.Filters;
 
-public class HttpGlobalExceptionFilter : IExceptionFilter
+internal class HttpGlobalExceptionFilter : IExceptionFilter
 {
     /// <summary>
     /// handle global http exceptions

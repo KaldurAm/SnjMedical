@@ -3,7 +3,7 @@
 /// <summary>
 /// add request guid to each request
 /// </summary>
-public class RequestGuidMiddleware
+internal class RequestGuidMiddleware
 {
     private readonly RequestDelegate _next;
 

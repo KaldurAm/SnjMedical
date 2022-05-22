@@ -9,7 +9,7 @@ namespace SnjMedical.SelfHost.Features.Swagger.Auth;
 /// <summary>
 /// swagger basic authorization middleware logic
 /// </summary>
-public class SwaggerBasicAuthorizationMiddleware
+internal class SwaggerBasicAuthorizationMiddleware
 {
     private readonly RequestDelegate _next;
     private readonly SwaggerCredentialsOptions _options;

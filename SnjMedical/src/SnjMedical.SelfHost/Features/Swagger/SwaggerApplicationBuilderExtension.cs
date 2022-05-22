@@ -5,7 +5,7 @@ namespace SnjMedical.SelfHost.Features.Swagger;
 
 internal static class SwaggerApplicationBuilderExtension
 {
-    public static IApplicationBuilder UseSwagger(this IApplicationBuilder app,
+    internal static IApplicationBuilder UseSwagger(this IApplicationBuilder app,
         IApiVersionDescriptionProvider apiVersionDescriptionProvider)
     {
         app.UseSwaggerBasicAuthorization();

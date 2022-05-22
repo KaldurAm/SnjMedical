@@ -14,7 +14,7 @@ namespace SnjMedical.SelfHost.Features.Swagger;
 /// <summary>
 /// Swagger service collection extension
 /// </summary>
-public static class SwaggerServiceCollectionExtension
+internal static class SwaggerServiceCollectionExtension
 {
     /// <summary>
     /// Method adding swagger to project
@@ -22,7 +22,7 @@ public static class SwaggerServiceCollectionExtension
     /// <param name="services"></param>
     /// <returns></returns>
     /// <exception cref="InvalidOperationException"></exception>
-    public static IServiceCollection AddSwagger(this IServiceCollection services)
+    internal static IServiceCollection AddSwagger(this IServiceCollection services)
     {
         services.AddTransient<IConfigureOptions<SwaggerGenOptions>, SwaggerOptions>();
         services.AddSingleton(x =>

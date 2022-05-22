@@ -6,7 +6,7 @@ namespace SnjMedical.SelfHost.Features.Middlewares;
 /// <summary>
 /// add request guid and scope to logs
 /// </summary>
-public class LoggingMiddleware
+internal class LoggingMiddleware
 {
     private readonly RequestDelegate _next;
     private readonly ILogger<LoggingMiddleware> _logger;
@@ -20,7 +20,7 @@ public class LoggingMiddleware
     }
 
     /// <summary></summary>
-    public async Task InvokeAsync (HttpContext context)
+    internal async Task InvokeAsync (HttpContext context)
     {
         context.Items.TryGetValue("requestGuid", out object? requestGuid);
         var logContext = new Dictionary<string, object>

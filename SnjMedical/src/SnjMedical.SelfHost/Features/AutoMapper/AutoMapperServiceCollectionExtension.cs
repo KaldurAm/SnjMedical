@@ -2,9 +2,9 @@
 
 namespace SnjMedical.SelfHost.Features.AutoMapper;
 
-public static class AutoMapperServiceCollectionExtension
+internal static class AutoMapperServiceCollectionExtension
 {
-    public static IServiceCollection AddAutoMapper(this IServiceCollection services)
+    internal static IServiceCollection AddAutoMapper(this IServiceCollection services)
     {
         services.AddAutoMapper(typeof(BaseController).Assembly);
         return services;
